@@ -1,0 +1,125 @@
+.navBar {
+    background-color: #ffffff;
+    height: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 3px 0px 8px -1px rgb(178, 176, 176);
+    /* box-shadow: #a59797; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+.search {
+    background-color: #f8f9fc;
+    height: 35px;
+    width: 300px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 10px;
+    padding-right: 0%;
+    margin-right: 0%;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.search:focus {
+    box-shadow: 0px 0px 0px 3px #d3dcf7;
+}
+
+.searchBtn {
+    background-color: #4e73df;
+    color: #ffffff;
+    height: 35px;
+    width: 40px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bell {
+    background-color: none;
+    border: none;
+    outline: none;
+    color: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.message {
+    background-color: none;
+    border: none;
+    outline: none;
+    color: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.vline {
+    border-left: 0.5px solid #cbd0d7;
+    height: 36px;
+    border-radius: 30px;
+    background-color: none;
+    outline: none;
+    color: none;
+    margin: 15px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.profileName {
+    font-size: 10px;
+    margin: 5px;
+    color: #bbbfc6;
+}
+
+.profilePicture {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    
+}
+
+.notificationbell{
+    position: relative;
+    top: -0.4rem;
+    right:0.3rem;
+    color: white;
+    background-color: rgb(232, 0, 0);
+    border-radius:4px;
+    border-color: 1px black;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.notificationmessage{
+    position: relative;
+    top: -0.4rem;
+    right:0.1rem;
+    color: white;
+    background-color: rgb(232, 0, 0);
+    border-radius:4px;
+    border-color: 1px solid black;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}

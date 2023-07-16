@@ -1,0 +1,250 @@
+.main{
+    
+}
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+
+}
+
+.reportbtn {
+    background-color: #4e73de;
+    color: white;
+    padding: 5px;
+    padding-right: 11px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+
+.reportimg {
+    padding: 5px;
+}
+
+.cards1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4e73df;
+}
+
+.cards2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #22c98d;
+    font-size: 12px;
+
+}
+
+.cards3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #36b9cc;
+    font-size: 12px;
+
+
+}
+
+.cards4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+
+    border-left: 5px solid #f7c443;
+}
+
+.progress {
+    width: 100% !important;
+    height: 8px !important;
+    color: #f7c443 !important;
+
+
+}
+
+.cardbody {
+    padding-top: 9px !important;
+    padding-left: 2px;
+    padding-bottom: 1px !important;
+}
+
+.cardbody1 {
+    padding-top: 9px !important;
+    padding-left: 2px;
+    padding-bottom: 1px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5a5c69;
+}
+
+.cardbody3 {
+    font-size: 20px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    color: #5a5c69;
+
+
+}
+
+.title3 {
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+.progressbar {
+    background-color: #36b9cc;
+    ;
+}
+
+.cardheader1 {
+    color: #4e73df;
+
+}
+
+.cardheader2 {
+    color: #22c98d;
+}
+
+.cardheader3 {
+    color: #36b9cc;
+}
+
+.cardheader4 {
+    color: #f7c443;
+}
+
+.taskicon {
+    padding-left: 10px;
+}
+
+.cardOverview {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height:max-content;
+
+}
+
+
+.cardOverviewheader {
+    background-color: #f8f9fc;
+    border-radius: 5px 5px 0px 0px;
+
+    border-bottom: 1px solid #dddfeb;
+    color: #4f74df;
+    padding: 15px;
+    align-items: center;
+
+}
+.cardOverviewDoughnet{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height:max-content;
+}
+.cardOverviewprojects {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height: 400px;
+    margin: 10px;
+}
+
+.cardOverviewheaderprojects {
+    background-color: #f8f9fc;
+    border-radius: 5px 5px 0px 0px;
+
+    border-bottom: 1px solid #dddfeb;
+    color: #4f74df;
+    padding: 15px;
+
+}
+
+
+.colorCard {
+
+    margin-bottom: 25px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.cardOverviewIllustrations {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height: max-content;
+    margin: 10px;
+}
+
+.cardOverviewheaderIllustrations {
+    background-color: #f8f9fc;
+    border-radius: 5px 5px 0px 0px;
+
+    border-bottom: 1px solid #dddfeb;
+    color: #4f74df;
+    padding: 15px;
+}
+
+.cardOverviewDevelopment{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height: max-content;
+    margin: 10px;
+}
+
+.cardOverviewheaderDevelopment{
+    background-color: #f8f9fc;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #dddfeb;
+    color: #4f74df;
+    padding: 15px;
+}
+.linechart {
+    padding: 15px;
+
+}
+
+.Doughnet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 80px !important;
+    padding: 50px;
+}
+
+.projects {
+    margin: 20px;
+}
+
+.progressname {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.illustrationBody {
+    padding: 10px;
+}
